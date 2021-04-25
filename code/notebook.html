@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<style>
+			.editor {
+				border:solid 1px #ccc;
+				padding: 20px;
+				min-height: 200px;
+			}
+			
+			.toolbar {
+				border: solid 1px #ddd;
+				background: #f4f4f4;
+				padding: 5px;
+				border-radius: 3px;
+			}
+			
+			.toolbar > span {
+				cursor: pointer;
+			}
+			
+			.toolbar > span:hover{
+				text-decoration: underline;
+			}
+		</style>
+		
+		<script src="notebook.js"></script>		
+	</head>
+	
+	
+	<body>
+		<div class="toolbar">
+			<button onclick="save()">Save</button>
+			<button onclick="findFrequency()">Occurrence Finder</button>
+			<button onclick="findSimilarWords()">Similar Words</button>
+			<button onclick="clearEditor()">Clear Editor</button>
+			<button onclick="clearCache()">Clear Cache</button>
+			<span>
+				<input id="inputId" placeholder="Enter the word">
+			</span>			
+		</div>
+		
+		<div class="editor" id="inputEditor" ></div>
+		
+		<div class="editor" id="outputEditor">
+			<div id="resultspace"></div>
+		</div>
+	</body>
+</html>
