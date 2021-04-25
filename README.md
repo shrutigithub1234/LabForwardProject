@@ -70,7 +70,7 @@ Choosing to "Save" the data would add the data from the input editor into the lo
 	in our package.json file.
 	
 	
---------------------------------------  Just in case 'npm install' doesn't install Jest as expected -----------------------------------------------------
+-----------------------------  Just in case 'npm install' doesn't install Jest as expected -----------------------
 
 1. Delete the package.json
 
