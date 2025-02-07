@@ -1,4 +1,4 @@
-# Implementation of 2 features for `<LABFORWARD>` Project
+# Implementation of 2 features for `Notebook` Project
 
 
 ### This document is intended to provide information on the project scope, the prerequisites and the information on how to run the unit tests.
